@@ -1,0 +1,26 @@
+tasks:
+  Gnucash automation:
+    command:
+      - python
+      - -m
+      - robot
+      - --report
+      - NONE
+      - --outputdir
+      - output
+      - -L
+      - TRACE
+      - --logtitle
+      - Task log
+      - tasks.robot
+
+condaConfigFile: conda.yaml
+ignoreFiles:
+  - .gitignore
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - libraries
+  - keywords
+  - variables
