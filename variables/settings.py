@@ -3,7 +3,7 @@ import sys
 
 GNUCASH_EXECUTABLE = {
     "linux": "gnucash",
-    "darwin": "gnucash",
+    "darwin": "/Applications/Gnucash.app/Contents/MacOS/Gnucash",
     "win32": "C:/Program Files (x86)/gnucash/bin/gnucash",
 }[sys.platform]
 
