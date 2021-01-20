@@ -1,7 +1,7 @@
 channels:
   # Define conda channels here.
-  - conda-forge
   - defaults
+  - conda-forge
 
 dependencies:
   # Define conda packages here.
