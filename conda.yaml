@@ -1,6 +1,5 @@
 channels:
   # Define conda channels here.
-  - defaults
   - conda-forge
 
 dependencies:
@@ -8,10 +7,10 @@ dependencies:
   # If available, always prefer the conda version of a package, installation will be faster and more efficient.
   # https://anaconda.org/search
   - python=3.7.5
-  - tesseract
+  - tesseract=4.1.1
   - pip=20.1
   - pip:
       # Define pip packages here.
       # https://pypi.org/
-      - rpaframework==7.1.1 # https://rpaframework.org/releasenotes.html
+      - rpaframework==7.6.0 # https://rpaframework.org/releasenotes.html
       - rpaframework-recognition==0.6.0
