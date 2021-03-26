@@ -4,7 +4,7 @@ Documentation           Gnucash automation example.
 ...                     image/character recognition based automation.
 Variables               settings.py
 Library                 RPA.Desktop
-Library                 GnucashLibrary.py
+Library                 GnucashLibrary
 Resource                gnucash.robot
 Suite Setup             Open Gnucash
 Suite Teardown          Close Gnucash
