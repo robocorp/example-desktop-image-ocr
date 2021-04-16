@@ -12,4 +12,4 @@ dependencies:
   - pip:
       # Define pip packages here.
       # https://pypi.org/
-      - rpaframework[cv]==9.2.1 # https://rpaframework.org/releasenotes.html
+      - rpaframework[cv]==9.5.0 # https://rpaframework.org/releasenotes.html
