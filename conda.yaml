@@ -6,4 +6,4 @@ dependencies:
   - tesseract=4.1.1
   - pip=20.1
   - pip:
-      - rpaframework[cv]==12.5.1 # https://rpaframework.org/releasenotes.html
+      - rpaframework[cv]==12.8.2 # https://rpaframework.org/releasenotes.html
