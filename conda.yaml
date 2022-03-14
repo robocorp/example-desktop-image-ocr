@@ -3,7 +3,7 @@ channels:
 
 dependencies:
   - python=3.7.5
-  - tesseract=4.1.1
+  - tesseract=5.0.1
   - pip=20.1
   - pip:
-      - rpaframework[cv]==12.8.2 # https://rpaframework.org/releasenotes.html
+      - rpaframework[cv]==12.9.0 # https://rpaframework.org/releasenotes.html
