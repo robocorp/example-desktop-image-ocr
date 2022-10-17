@@ -2,8 +2,9 @@ channels:
   - conda-forge
 
 dependencies:
-  - python=3.7.5
-  - tesseract=5.0.1
-  - pip=20.1
+  - python=3.9.13                       # https://pyreadiness.org/3.9/ 
+  - tesseract=5.2.0                     # https://anaconda.org/conda-forge/tesseract 
+  - pip=22.2.2                          # https://pip.pypa.io/en/stable/news/
   - pip:
-      - rpaframework[cv]==13.0.0 # https://rpaframework.org/releasenotes.html
+      - rpaframework==17.7.0            # https://rpaframework.org/releasenotes.html
+      - rpaframework-recognition==5.0.0 
