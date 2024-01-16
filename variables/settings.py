@@ -10,3 +10,7 @@ GNUCASH_EXECUTABLE = {
 GNUCASH_DATABASE = os.path.join(
     os.getenv("ROBOT_ROOT", ""), "resources", "demo.gnucash"
 )
+
+GNUCASH_LOCK_FILE = os.path.join(
+    os.getenv("ROBOT_ROOT", ""), "resources", "demo.gnucash.LCK"
+)

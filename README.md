@@ -4,14 +4,11 @@
 
 This robot demonstrates automating a desktop application with image recognition and OCR.
 The system being automated is a cross-platform free accounting software called [GnuCash](https://www.gnucash.org/).
-This demo uses a mock account and checks the current net assets.
+This demo uses a mock account.
 
 Most of the interaction happens by locating a desired text by OCR. Regions and offsets are involved too,
 e.g. when you want to type text into an input field with a text label next to it,
 you first find the label, then get a region or offset relative to that text and click there.
-
-For educational purposes both Python and Robot Framework keyword implementations are included.
-This is still a Robot Framework robot - just with an alternative way to define keywords.
 
 ## Note about OCR
 
