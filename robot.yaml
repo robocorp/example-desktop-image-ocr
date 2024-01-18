@@ -1,18 +1,6 @@
 tasks:
   Gnucash automation:
-    command:
-      - python
-      - -m
-      - robot
-      - --report
-      - NONE
-      - --outputdir
-      - output
-      - -L
-      - TRACE
-      - --logtitle
-      - Task log
-      - tasks.robot
+    shell: python -m robocorp.tasks run
 
 condaConfigFile: conda.yaml
 ignoreFiles:
