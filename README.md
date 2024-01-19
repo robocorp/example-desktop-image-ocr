@@ -29,6 +29,8 @@ Even then hotkeys and the clipboard are oftentimes more reliable than pure OCR.
 Another use case for OCR is reading text from documents (PDF, JPEG),
 this demo does not consider that use case at all.
 
+When utilizing OCR or image-based locators, it is imperative to execute the process within a consistent environment. This entails maintaining uniform resolution and scaling settings across all executions, as the locators are predominantly calibrated for the specific display configurations for which they were originally designed.
+
 ## Requirements
 
 This robot assumes the running environment has a functional installation
